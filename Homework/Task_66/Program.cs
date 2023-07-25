@@ -7,8 +7,8 @@ Console.Write("Введите число M: ");
 int firstNum = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите число N: ");
 int secondNum = Convert.ToInt32(Console.ReadLine());
-int SumNumbers(int firstNum, int secondNum)
 
+int SumNumbers(int firstNum, int secondNum)
 {
     if (firstNum < secondNum)
     {
