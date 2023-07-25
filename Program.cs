@@ -51,19 +51,19 @@
 // A = 3; B = 5 -> 243 (3⁵)
 // A = 2; B = 3 -> 8
 
-Console.Write("Введиет число A: ");
-int A = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введиет число B: ");
-int B = Convert.ToInt32(Console.ReadLine());
-int PowNumbers (int num, int rank)
-{
-    if (rank == 0) return 1;
-    if (rank == 1) return num;
-    return num * PowNumbers(num, rank-1);
-}
-if (B<0)
-{
-    System.Console.WriteLine("Степень меньше 0 мы не обрабатываем");
-    return;
-}
-Console.WriteLine($"Число {A} в степени {B}: {PowNumbers(A, B)}");
+// Console.Write("Введиет число A: ");
+// int A = Convert.ToInt32(Console.ReadLine());
+// Console.Write("Введиет число B: ");
+// int B = Convert.ToInt32(Console.ReadLine());
+// int PowNumbers (int num, int rank)
+// {
+//     if (rank == 0) return 1;
+//     if (rank == 1) return num;
+//     return num * PowNumbers(num, rank-1);
+// }
+// if (B<0)
+// {
+//     System.Console.WriteLine("Степень меньше 0 мы не обрабатываем");
+//     return;
+// }
+// Console.WriteLine($"Число {A} в степени {B}: {PowNumbers(A, B)}");
